@@ -1,4 +1,4 @@
-#OOPS
+# OOPS
 
 1. **What is Object Oriented Programming?**
 2. **What is an object?**
@@ -15,7 +15,7 @@ A Class in Java can contain
 - Nested Class
 - Interface
 
-#Polymorphism
+# Polymorphism
 
 7. **What is Polymorphism**
 
@@ -43,7 +43,7 @@ Ans: In Java, method overriding occurs when a subclass (child class) has the sam
 
 Ans: Yes, we can overload static methods, we can have two or more static methods with the same name but with different parameters.
 
-#Abstractions
+# Abstractions
 
 13. **What is Abstractions in Java?**
 
@@ -107,7 +107,7 @@ Ans: No, we can't use static keyword with abstract method.
 29. **Can We Declare the Abstract Method As Final?** - No
 30. **Can We Declare Abstract Method As Private?** - No
 
-#Encapsulation
+# Encapsulation
 
 31. **What is Encapsulation?**
 
@@ -132,7 +132,7 @@ c) Abstraction is used to hide unwanted data and giving relevant data whereas en
 The main benefit of encapsulation is the ability to modify the implemented code without breaking the code of others who use our code. It also provides us with maintainability, flexibility and extensibility to our code.
 
 
-#Inheritance
+# Inheritance
 
 36. **What is Inheritance?**
 
