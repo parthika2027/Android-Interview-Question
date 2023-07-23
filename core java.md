@@ -1,4 +1,4 @@
-* **What are the access modifiers you know? What does each one do?**
+1. **What are the access modifiers you know? What does each one do?**
 
 Ans: There are four access modifiers in Java language (from strictest to the most lenient):
 
@@ -10,11 +10,11 @@ Ans: There are four access modifiers in Java language (from strictest to the mos
 
   d. public modifier is widely used on classes, variables, constructors, and methods to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with the public is not sensitive and can not be used to harm the program.
 
-* **What is final in Java?**
+2. **What is final in Java?**
 
 Ans: Final is a keyword used to restrict the user in Java programming. It can be applied to variables, methods, or classes. It is a non-access modifier.
 
-* **Why do we need the final keyword in Java?**
+3. **Why do we need the final keyword in Java?**
 
 Ans: Final keyword is used in Java program for three different purposes that are as follows:
 
@@ -24,11 +24,11 @@ b. To prevent inheritance. When a class is marked with final keyword, it cannot 
 
 c. To prevent a method from being overridden. When a method is marked with final keyword, it cannot be overridden by subclasses. A method declared with final keyword is faster than any other method because it is resolved at compile time.
 
-* **What is a blank final variable in Java?**
+4. **What is a blank final variable in Java?**
 
 Ans: A variable that is declared as final and not initialized at the time of declaration is called a blank final variable.
 
-* **Difference between final, finally, and finalize**
+5. **Difference between final, finally, and finalize**
 
 | SL No. | Key | Final | Finally | Finalize |
 | :---: | :---: | :---: | :---: | :-------: |
