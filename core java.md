@@ -2,13 +2,13 @@
 
 Ans: There are four access modifiers in Java language (from strictest to the most lenient):
 
-  a. private variables, methods, constructors or inner classes are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide the underlying implementation of classes that user should not use and therefore maintain encapsulation. The Singleton constructor is also marked private to avoid unwanted instantiation from outside.
+  a. **Private** variables, methods, constructors or inner classes are only visible to its' containing class and its' methods. This modifier is most commonly used, for example, to allow variable access only through getters and setters or to hide the underlying implementation of classes that user should not use and therefore maintain encapsulation. The Singleton constructor is also marked private to avoid unwanted instantiation from outside.
 
-  b. Default (no keyword is used) This modifier can be applied to classes, variables, constructors and methods and allows access from classes and methods inside the same package.
+  b. **Default** (no keyword is used) This modifier can be applied to classes, variables, constructors and methods and allows access from classes and methods inside the same package.
 
-  c. protected can be used on variables, methods and constructors, allowing access only to subclasses and classes inside the same package as protected members' class.
+  c. **Protected** can be used on variables, methods and constructors, allowing access only to subclasses and classes inside the same package as protected members' class.
 
-  d. public modifier is widely used on classes, variables, constructors, and methods to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with the public is not sensitive and can not be used to harm the program.
+  d. **Public** modifier is widely used on classes, variables, constructors, and methods to grant access from any class and method anywhere. It should not be used everywhere as it implies that data marked with the public is not sensitive and can not be used to harm the program.
 
 2. **What is final in Java?**
 
