@@ -36,3 +36,18 @@ Ans: A variable that is declared as final and not initialized at the time of dec
 | 2 | Applicable to | Final keyword is used with the classes, methods and variables. | Finally block is always related to the try and catch block in exception handling. | finalize() method is used with the objects. | 
 | 3 | Functionality | Once declared, final variable becomes constant and cannot be modified. final method cannot be overridden by sub class. final class cannot be inherited. | finally block runs the important code even if exception occurs or not. finally block cleans up all the resources used in try block | finalize method performs the cleaning activities with respect to the object before its destruction. |
 | 4 | Execution | Final method is executed only when we call it. | Finally block is executed as soon as the try-catch block is executed. It's execution is not dependant on the exception | finalize method is executed just before the object is destroyed. |
+6. Example of Final?
+7. Example Finally?
+```java
+try{
+	sleep(2600);
+}catch(InterruptedException e){
+	e.printStackTrace();
+}finally{
+	Intent intent = new Intent(SplashActivity.this, HomeActivity.class);
+		finish();
+		startActivity(intent);
+}
+```
+8. Example of Finalize?
+
