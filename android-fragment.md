@@ -12,8 +12,7 @@
     - FragmentPagerAdapter: Each fragment visited by the user will be stored in the memory but the view will be destroyed. When the page is revisited, then the view will be created not the instance of the fragment.
     - FragmentStatePagerAdapter: Here, the fragment instance will be destroyed when it is not visible to the user, except the saved state of the fragment.
 5. **Compare Activity Lifecycle with Fragment Lifecycle**
-
-![Activity Fragment Lifecycle](https://github.com/parthika2027/Android-Interview-Question/blob/main/activity_lifecycle.png)
+https://github.com/parthika2027/Android-Interview-Question/blob/main/img/activity_fragment.png
 
 Fragment and Activity lifecycles work in parallel. The linear dependence between their lifecycle ends as soon as both activity and fragment are created
 Note that onStart and onResume (and similarly, onStop and onPause) for both fragment and activity execute in parallel and there is no guarantee of order. Sometimes fragment will take precedence over activity, and vice versa.
