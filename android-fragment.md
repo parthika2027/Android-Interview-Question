@@ -4,7 +4,7 @@
 
 2. **What is `Activity's` lifecycle?**
   
-![Activity Lifecycle](https://github.com/parthika2027/Android-Interview-Question/blob/main/activity_lifecycle.png)
+![Activity Lifecycle](https://github.com/parthika2027/Android-Interview-Question/blob/main/img/activity_lifecycle.png)
 
 3. **What is `Fragment` and its lifecycle.**
 
